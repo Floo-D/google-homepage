@@ -1,0 +1,133 @@
+body {
+    position: relative;
+    font-size: small;
+    font-family: arial, sans-serif;
+    background-color: #fff;
+}
+
+main {
+    position: absolute;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 200px;
+}
+
+main form input, main form button, main img {
+    margin-bottom: 2em;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+li {
+    display: inline-block;
+    margin: 0 1em;
+}
+
+input {
+    background: url(../images/search-24px.png) no-repeat scroll left 15px center;
+    padding: 0 45px;
+    font-size: 17px;
+    background-color: transparent;
+    border: 1px solid #dfe1e5;
+    color: rgba(0,0,0,.87);
+    width: 482px;
+    height: 44px;
+    border-radius: 24px;
+    font-weight: lighter;
+}
+
+input:hover {
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+}
+
+button {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 0 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    text-align: center;
+}
+
+button:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    line-height: 40px;
+}
+
+nav {
+    float: right;
+    padding: 1em 1.5em 0 0;
+}
+
+header li {
+    margin: 0 0.8em 0 0;
+}
+
+header a:visited, header a:link {
+    color: rgba(0,0,0,0.87);
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    border: 1px solid #e4e4e4;
+    line-height: 40px;
+    padding: 0 1em;
+}
+
+footer p {
+    border-bottom: 1px solid #e4e4e4;
+    color: rgba(0,0,0,.54);
+    margin-left: 15px;
+    font-size: 15px;
+}
+
+footer a:visited, footer a:link {
+    color: #5f6368;
+}
+
+#about {
+    position: relative;
+    bottom: 0;
+    left: 0;
+}
+
+#settings {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding-right: 1em;
+}
+
+#icon-apps {
+    opacity: 50%;
+}
+
+#icon-apps:hover {
+    opacity: 100%;
+}
